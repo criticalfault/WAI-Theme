@@ -1,13 +1,13 @@
 version: "2"
 services:
   my-wpdb:
-    image: mariadb
+    image: waitheme_my-wpdb
     ports:
       - "8081:3306"
     environment:
       MYSQL_ROOT_PASSWORD: ChangeMeIfYouWant
   my-wp:
-    image: wordpress
+    image: waitheme_my-wp
     volumes:
       - ./:/var/www/html/wp-content/themes/
     ports:
