@@ -1,2 +1,2 @@
 # WAI-Theme
-WAI Class Theme
+WAI Class Wordpress Theme for WAI-Magazine
